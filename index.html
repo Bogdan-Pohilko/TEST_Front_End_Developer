@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/timeline.min.css" />
+</head>
+<body>
+	<div class="timeline-container timeline-theme-1">
+	  <div class="timeline js-timeline">
+	    <div data-time="TODAY">
+	      your content or markup
+	    </div>
+	    <div data-time="2017">
+	      your content or markup
+	    </div>
+	    <div data-time="2015">
+	      your content or markup
+	    </div>
+	    <div data-time="2012">
+	      your content or markup
+	    </div>
+	    <div data-time="2011">
+	      your content or marku
+	    </div>
+	    <div data-time="2007">
+	      your content or marku
+	    </div>
+	    <div data-time="2006">
+	      your content or marku
+	    </div>
+	    <div data-time="2004">
+	      your content or marku
+	    </div>
+	    <div data-time="2001">
+	      your content or marku
+	    </div>
+	  </div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/timeline.min.js"></script>
+	<script>
+		$('.js-timeline').Timeline(
+		{
+		  dotsClass: 'timeline-dots',
+		  dotsPosition: 'bottom',
+		  mode: 'horizontal',
+		  itemClass: 'box-item',
+		});
+	</script>
+</body>
+</html>
